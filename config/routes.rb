@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   get  '/help',    to: 'static_pages#help'
   get  '/about',   to: 'static_pages#about'
   get  '/contact', to: 'static_pages#contact'
+  get  '/thing', to: 'static_pages#thing'
+  get  '/hide', to: 'static_pages#hide'
   get  '/signup', to: 'users#new'
 end
