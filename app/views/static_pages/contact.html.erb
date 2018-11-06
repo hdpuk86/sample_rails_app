@@ -4,3 +4,8 @@
   Contact the Ruby on Rails Tutorial about the sample app at the
   <a href="http://www.railstutorial.org/contact">contact page</a>.
 </p>
+<%= link_to thing_path, remote: true do %>
+  <button class="btn btn-default">Thing</button>
+<% end %>
+<div id="thing" style="display:none;">
+</div>
